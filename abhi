@@ -1,0 +1,27 @@
+Common subdirectories: linux-3.16.71/arch and /usr/src/linux-3.16.71/arch
+Common subdirectories: linux-3.16.71/block and /usr/src/linux-3.16.71/block
+Common subdirectories: linux-3.16.71/crypto and /usr/src/linux-3.16.71/crypto
+Common subdirectories: linux-3.16.71/Documentation and /usr/src/linux-3.16.71/Documentation
+Common subdirectories: linux-3.16.71/drivers and /usr/src/linux-3.16.71/drivers
+Common subdirectories: linux-3.16.71/firmware and /usr/src/linux-3.16.71/firmware
+Common subdirectories: linux-3.16.71/fs and /usr/src/linux-3.16.71/fs
+Common subdirectories: linux-3.16.71/include and /usr/src/linux-3.16.71/include
+Only in /usr/src/linux-3.16.71/: info
+Common subdirectories: linux-3.16.71/init and /usr/src/linux-3.16.71/init
+Common subdirectories: linux-3.16.71/ipc and /usr/src/linux-3.16.71/ipc
+Common subdirectories: linux-3.16.71/kernel and /usr/src/linux-3.16.71/kernel
+Common subdirectories: linux-3.16.71/lib and /usr/src/linux-3.16.71/lib
+diff linux-3.16.71/Makefile /usr/src/linux-3.16.71/Makefile
+855c855
+< core-y		+= kernel/ mm/ fs/ ipc/ security/ crypto/ block/
+---
+> core-y		+= kernel/ mm/ fs/ ipc/ security/ crypto/ block/ info/
+Common subdirectories: linux-3.16.71/mm and /usr/src/linux-3.16.71/mm
+Common subdirectories: linux-3.16.71/net and /usr/src/linux-3.16.71/net
+Common subdirectories: linux-3.16.71/samples and /usr/src/linux-3.16.71/samples
+Common subdirectories: linux-3.16.71/scripts and /usr/src/linux-3.16.71/scripts
+Common subdirectories: linux-3.16.71/security and /usr/src/linux-3.16.71/security
+Common subdirectories: linux-3.16.71/sound and /usr/src/linux-3.16.71/sound
+Common subdirectories: linux-3.16.71/tools and /usr/src/linux-3.16.71/tools
+Common subdirectories: linux-3.16.71/usr and /usr/src/linux-3.16.71/usr
+Common subdirectories: linux-3.16.71/virt and /usr/src/linux-3.16.71/virt
